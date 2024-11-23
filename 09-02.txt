@@ -1,0 +1,3 @@
+string original = "今天天氣很好";
+string result = original.Insert(0, "早安，");
+// The output can be written to a file or used as needed

@@ -1,0 +1,7 @@
+string str1 = "Hello";
+string str2 = " ";
+string str3 = "World";
+string result = string.Concat(str1, str2, str3);
+// The result will be "Hello World"
+// 可將結果寫入檔案或作其他處理
+

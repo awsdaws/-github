@@ -1,0 +1,5 @@
+string str1 = "12345";
+string str2 = "12345";
+bool result = str1.Equals(str2);
+// result 會是 True，因為兩個字串完全相等。
+// 輸出結果可以寫入檔案或作其他使用

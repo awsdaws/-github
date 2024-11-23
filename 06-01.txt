@@ -1,0 +1,2 @@
+string fileName = "document.txt";
+bool isTextFile = fileName.EndsWith(".txt");
