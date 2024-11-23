@@ -1,0 +1,14 @@
+string[] str1 = {"apple","book","dream","computer","sunshine","friend","music"+
+                    "Garden","city","Happy","travel","Name","mountain","keyboard","ocean" +
+                    "family","dog","coffee","light","dream","School"+
+                    "pneumonoultramicroscopicsilicovolcanoconiosis"}
+            Console.WriteLine("請輸入要查詢的單字");
+            string a = Console.ReadLine();
+            for(int i = 0; i < str1.Length-1; i++) 
+            {
+                if(a.CompareTo(str1[i])==0)
+                {
+                    Console.WriteLine(str1[i]+"是第" +(i+1)+"個單字");
+                }
+            }
+            Console.WriteLine("\n"+"End");

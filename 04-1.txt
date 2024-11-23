@@ -1,0 +1,13 @@
+string[] str1 = { "apple","book","dream","computer","sunshine","friend","music"+
+                    "Garden","city","Happy","travel","Name","mountain","keyboard","ocean" +
+                    "family","dog","coffee","light","dream","School"+
+                    "pneumonoultramicroscopicsilicovolcanoconiosis"};
+            string[] str2 = new string[str1.Length];
+
+            for (int i = 0; i < str1.Length; i++) 
+            {
+                str2[i]=string.Copy(str1[i]);
+            }
+            Console.WriteLine(str2[18]);
+            Console.WriteLine("\n"+"End");
+
