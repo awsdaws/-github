@@ -1,0 +1,7 @@
+
+   string str ="Hello C++";
+   string result =str.Replace("C++","Taiwan");
+   console.Writeline(result);
+   console.Readline();
+
+

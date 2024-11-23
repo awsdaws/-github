@@ -1,0 +1,27 @@
+
+      string str ="HelloWorld";
+      string modifiedStr =str.Replace("ello","i");
+      char[] charArray = new char[modifiedStr.Length];
+      modifiedStr.copyTo(0, charArray,0,modifiedStr.Length);
+      console.Writeline(result);
+   console.Readline();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

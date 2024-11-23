@@ -1,0 +1,7 @@
+   string animals ="cat,dog,bird,bear,panda";
+   string animalslist =animals,Split(',');
+   for(int i = 0; i<4; i++)
+   {  
+      console.Writeline(animalList[i]);
+      console.Readline();
+   }

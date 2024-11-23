@@ -1,0 +1,14 @@
+
+  string str ="Hello Japan";
+  string result =str.Substring("C++","Japan");
+  console.Writeline(result);
+   console.Readline();
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+
+    string str ="Hello Japan";
+  string result =str.Trim("C++","Japan");
+  console.Writeline(result);
+   console.Readline();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
