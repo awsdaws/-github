@@ -1,0 +1,5 @@
+string text ="abcdefg";
+char[] charArray = text.ToCharArray();
+charArray[2] ='x';
+string newText =new string(charArray);
+Console.WriteLine(newText);

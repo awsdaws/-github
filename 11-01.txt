@@ -1,0 +1,3 @@
+string name ="Alice";
+string job ="Engineer";
+Console.WriteLine($"|{name.PadRight(10)}|{job.PadRight(15)}|");

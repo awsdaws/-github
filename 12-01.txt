@@ -1,0 +1,3 @@
+string text ="!@#$%^&*()_+";
+int position =text.IndexOf("&*");
+Console.WriteLine(position);

@@ -1,0 +1,3 @@
+string text ="1234abcd@1234efgh@5678";
+int position =text.IndexOf("1234");
+Console.WriteLine(position);

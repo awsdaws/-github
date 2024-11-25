@@ -1,0 +1,4 @@
+string original ="HACPPY BIRSTHDAY";
+string temp =original.Remove(2,1);
+temp=temp.Remove(9,1);
+Console.WriteLine(temp);
